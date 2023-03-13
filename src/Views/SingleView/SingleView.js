@@ -49,12 +49,12 @@ class SingleView extends Component {
             <div className="row">
               <PrayerTimesSingleView />
             </div>
-            <div className="row">
+            {/* <div className="row">
               <SunriseAndZawwal />
             </div>
             <div className="row">
               <JummahTimes />
-            </div>
+            </div> */}
           </div>
         </div>
         <BuildNumber />

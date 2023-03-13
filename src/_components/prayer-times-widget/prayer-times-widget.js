@@ -83,26 +83,21 @@ class PrayerTimesWidget extends Component {
           </thead>
           <tbody>
             <tr>
-              <th>Begins</th>
+              <th>Azan</th>
               <td>{this.state.prayerTimes['fajr_begins']}</td>
               <td>{this.state.prayerTimes['zuhr_begins']}</td>
-              <td>
-                {this.state.prayerTimes['asr_1_begins']}{' '}
-                {this.state.prayerTimes['asr_2_begins']
-                  ? `/ ${this.state.prayerTimes['asr_2_begins']}`
-                  : ''}
-              </td>
+              <td>{this.state.prayerTimes['asr_1_begins']}</td>
               <td>{this.state.prayerTimes['maghrib_begins']}</td>
               <td>{this.state.prayerTimes['isha_begins']}</td>
             </tr>
-            <tr>
+            {/* <tr>
               <th>Jama'ah</th>
               <td>{this.state.prayerTimes['fajr_jamaah']}</td>
               <td>{this.state.prayerTimes['zuhr_jamaah']}</td>
               <td>{this.state.prayerTimes['asr_jamaah']}</td>
               <td>{this.state.prayerTimes['maghrib_jamaah']}</td>
               <td>{this.state.prayerTimes['isha_jamaah']}</td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
       </div>
