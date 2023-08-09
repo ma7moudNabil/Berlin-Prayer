@@ -142,7 +142,7 @@ class PrayerTimesSingleView extends Component {
               >
                 {this.state.prayerTimes['maghrib_jamaah']}
               </td> */}
-              <td>{this.state.tomorrowsPrayerTimes['maghrib_jamaah']}</td>
+              <td>{this.state.tomorrowsPrayerTimes['maghrib_begins']}</td>
             </tr>
             <tr>
               <th>Isha</th>
